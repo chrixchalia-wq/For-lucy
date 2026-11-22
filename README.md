@@ -33,16 +33,14 @@
 </head>
 <body>
 
-<!-- PAGE 1 -->
 <div class="hero" id="page1">
   <img src="lucy1.jpg" alt="Lucy">
   <h1>Hey Lucy ❤️</h1>
   <p>I made this website just for you.<br>Because you deserve something special.</p>
   <button class="btn" onclick="go('page2')">Tap to Open My Heart 💌</button>
-  <p style="margin-top:15px;font-size:13px">Made with love, only for you</p>
+  <p style="margin-top:15px;font-size:13px">Made with love, by Chriss</p>
 </div>
 
-<!-- PAGE 2 - GALLERY -->
 <div class="section hidden" id="page2">
   <h2>My Beautiful Lucy 👑</h2>
   <p>Look at that smile. How can someone be this beautiful? Every time I see you, my heart skips.</p>
@@ -55,7 +53,6 @@
   <button class="btn" onclick="go('page3')">Why I Love You 👉</button>
 </div>
 
-<!-- PAGE 3 - REASONS -->
 <div class="section hidden" id="page3">
   <h2>3 Reasons I Love You</h2>
   <div class="reason">💖 <b>1. Your Smile</b><br>Your smile is my favourite place in the world. When you smile, everything feels okay.</div>
@@ -64,7 +61,6 @@
   <button class="btn" onclick="go('page4')">Read My Letter 💌</button>
 </div>
 
-<!-- PAGE 4 - LETTER -->
 <div class="section hidden" id="page4">
   <h2>A Letter For Lucy 💌</h2>
   <div class="love-letter">
@@ -74,12 +70,11 @@
     You are my Asali, my Moyo, my everything. I want to laugh with you, grow with you, and build a beautiful future with you.<br><br>
     I promise to always be there for you, to protect you, to make you smile like in these photos.<br><br>
     Forever yours,<br>
-    <b>Your Boyfriend ❤️</b>
+    <b>Chriss ❤️</b>
   </div>
   <button class="btn" onclick="go('page5')">One Last Question... 💍</button>
 </div>
 
-<!-- PAGE 5 - QUESTION -->
 <div class="section hidden" id="page5">
   <div class="big">💍❤️</div>
   <h2>Lucy, Will You Be Mine Forever?</h2>
@@ -90,7 +85,6 @@
   </div>
 </div>
 
-<!-- PAGE 6 - YES -->
 <div class="section hidden" id="page6">
   <div class="big">🥰🎉</div>
   <h2>I KNEW IT, LUCY!</h2>
@@ -100,7 +94,7 @@
   <img src="lucy1.jpg" style="width:100%;height:280px;object-fit:cover;border-radius:20px;margin-top:15px" alt="Lucy">
 </div>
 
-<div class="footer">Made with ❤️ for Lucy - Forever & Always</div>
+<div class="footer">Made with ❤️ for Lucy - by Chriss</div>
 
 <script>
 function go(id){
@@ -128,4 +122,4 @@ setInterval(()=>{
 },1000)
 </script>
 </body>
-</html># For-lucy
+</html>
